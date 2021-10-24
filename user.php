@@ -14,9 +14,6 @@
       $flgStmt = $db->prepare($sql);
       $params = array(':name' => $_POST['name'], ':id' => $id);
       $flgStmt->execute($params);
-
-      header('Location: user.php');
-      exit();
     } catch (\Exception $e) {
       echo $e->getMessage() . PHP_EOL;
     }

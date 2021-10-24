@@ -1,7 +1,7 @@
 <?php
-  $dsn = 'mysql:dbname=jiko;host=localhost';
-  $user = 'root';
-  $password = 'root';
+  $dsn = 'mysql:dbname=outputground_db;host=mysql1.php.xdomain.ne.jp';
+  $user = 'outputground_db';
+  $password = '5411235kpspg';
 
   // DBへ接続
   try {

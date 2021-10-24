@@ -1,5 +1,5 @@
   </main>
   
-  <script src="js/bootstrap.min.js"></script>
+  <script src="/jiko/js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

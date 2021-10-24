@@ -28,8 +28,7 @@
   <title><?php echo $title ?>時効掲示板</title>
   <meta name="description" content="<?php echo $description ?>">
   <link rel="stylesheet" href="/jiko/css/style.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/jiko/css/bootstrap/bootstrap.min.css">
 </head>
 <body class="text-center text-white d-flex min-vh-100">
   <main class="cover-container d-flex w-100 p-3 mx-auto flex-column">

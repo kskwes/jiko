@@ -2,6 +2,10 @@
   require_once('dbconnect.php');
   session_start();
 
+    if (!isset($error) && !empty($_POST)) {
+        header('Location: index.php');
+    }
+
   if(!empty($_POST)) {
     if (!empty($_POST['email']) && !empty($_POST['password'])) {
       try {
@@ -30,11 +34,7 @@
       }
     }
 
-    // エラーがなければTOPページへ
-    if (!isset($error)) {
-      header('Location: index.php');   // check.phpへ移動
-      exit();
-    }
+    
   } else {
     $error['login'] ='blank';
   }

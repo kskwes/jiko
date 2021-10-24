@@ -29,8 +29,8 @@
         0
       ));
 
-      header('Location: index.php');
-      exit();
+    //   header('Location: index.php');
+    //   exit();
     } catch (\Exception $e) {
       echo $e->getMessage() . PHP_EOL;
     }
