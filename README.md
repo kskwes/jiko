@@ -5,6 +5,7 @@ http://outputground.php.xdomain.jp/jiko/
 
 ## 概要
 - PHPとMySQLで作るWeb掲示板（MAMP環境）
+- サーバーは無料レンタルサーバーのXFREEを使用
 ## 機能
 - 会員登録
   - ニックネーム
